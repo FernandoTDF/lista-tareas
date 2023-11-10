@@ -8,11 +8,11 @@ import { ListaModule } from './lista/lista.module';
 
   imports: [TypeOrmModule.forRoot({
     "type": "mysql",
-    "host": "localhost",
+    "host": "bhinebrhicskufafjecq-mysql.services.clever-cloud.com",
     "port": 3306,
-    "username": "root",
-    "password": "root",//1982LasAljabas402",
-    "database": "lista_prueba",
+    "username": "udest0ovuu346h9d",
+    "password": "JOulOjhd8AmKJCSOcCbw",//1982LasAljabas402",
+    "database": "bhinebrhicskufafjecq",
     "entities": [__dirname + "/**/**/**.entity{.ts,.js}"],
     "synchronize":true
   }), ListaModule],
