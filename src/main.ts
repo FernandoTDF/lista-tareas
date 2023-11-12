@@ -6,7 +6,7 @@ async function bootstrap() {
 
   //configurar CORS
   app.enableCors({
-    origin:['http://localhost:3000'],
+    origin:['http://localhost:3000','https://lista-tarea-64683.web.app/'],
     methods:'GET,PUT,POST,DELETE,PATH',
     credentials: true
   })
